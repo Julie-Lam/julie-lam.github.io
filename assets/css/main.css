@@ -2659,7 +2659,7 @@ input, select, textarea {
 				}
 
 		header.major p {
-			font-size: 1.25em;
+			font-size: 1em;
 			letter-spacing: -0.025em;
 		}
 
@@ -3794,10 +3794,25 @@ input, select, textarea {
 	row-gap: 50px;
 }
 
+.projectSection h2:after {
+	display: none !important;
+
+}
+
 .projectOneImage{
+	background-image: url("/images/Max_Homemade_Cupcakes_Screenshot.PNG");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.6; 
+}
+
+.projectTwoImage {
 	background-image: url("/images/projectOne.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
+	opacity: 0.6; 
 }
 	
 .tag {
@@ -3812,3 +3827,4 @@ input, select, textarea {
     vertical-align: baseline;
     border-radius: .25rem;
 }
+
