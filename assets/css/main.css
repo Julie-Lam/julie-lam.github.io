@@ -3834,7 +3834,7 @@ input, select, textarea {
 }
 
 #technologies ul {
-	list-style: none;
+	list-style: none !important;
 }
 
 #first .fa-code {
