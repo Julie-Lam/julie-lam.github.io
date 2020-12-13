@@ -3828,3 +3828,33 @@ input, select, textarea {
     border-radius: .25rem;
 }
 
+.purple {
+	color: #7510F7 !important; 
+	font-weight: 400; 
+}
+
+#technologies ul {
+	list-style: none;
+}
+
+#first .fa-code {
+	font-size: 2rem;
+	border: solid 1px #a89cc8;
+	border-radius: 50%;
+	/* font-size: 1.25em; */
+	padding: 3px; 
+    /* width: 2em;
+    height: 2em;
+    text-align: center;
+    line-height: 2em; */
+}
+
+#arrow-down {
+	width: 100%; 
+	text-align: center;
+}
+
+#arrow-down .fa-arrow-down {
+	color: #a89cc8; 
+	 
+}
