@@ -3802,15 +3802,15 @@ input, select, textarea {
 .projectOneImage{
 	background-image: url("../../images/Max_Homemade_Cupcakes_Screenshot.PNG");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	background-position: center;
 	opacity: 0.6; 
 }
 
 .projectTwoImage {
-	background-image: url("../../images/projectOne.jpg");
+	background-image: url("../../images/Order_Handler.PNG");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	background-position: center;
 	opacity: 0.6; 
 }
