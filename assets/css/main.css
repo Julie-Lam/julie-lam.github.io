@@ -3708,6 +3708,16 @@ input, select, textarea {
 		}
 		
 
+#footer {
+	justify-content: center;
+}
+
+#footer section h2 {
+	text-align: center;
+}
+
+
+
 		@media screen and (max-width: 1280px) {
 
 			#footer {
