@@ -3866,5 +3866,26 @@ input, select, textarea {
 
 #arrow-down .fa-arrow-down {
 	color: #a89cc8; 
-	 
+}
+
+.logo img {
+	border-radius: 50%;
+}
+
+#languages {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#languages div {
+	margin: 30px; 
+}
+
+#languages i {
+	font-size: 80px;
+}
+
+#arrow-down a:hover {
+	color: black; 
 }
