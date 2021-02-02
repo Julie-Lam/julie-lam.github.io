@@ -3809,21 +3809,43 @@ input, select, textarea {
 
 }
 
-.projectOneImage{
-	background-image: url("../../images/Max_Homemade_Cupcakes_Screenshot.PNG");
+.projectImage {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
 	opacity: 0.6; 
 }
 
+.projectOneImage{
+	background-image: url("../../images/Max_Homemade_Cupcakes_Screenshot.PNG");
+
+}
+
 .projectTwoImage {
 	background-image: url("../../images/Order_Handler.PNG");
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center;
-	opacity: 0.6; 
 }
+
+.projectThreeImage {
+	background-image: url("../../images/Portfolio_Screenshot.PNG");
+}
+
+.projectFourImage {
+	background-image: url("../../images/My_BookList_Screenshot.PNG");
+}
+
+.projectFiveImage {
+	background-image: url("../../images/Tribute_Screenshot.PNG");
+}
+
+.projectSixImage {
+	background-image: url("../../images/Weather_Screenshot.PNG");
+}
+
+.projectSevenImage {
+	background-image: url("../../images/Hollywood_Hair_Screenshot.PNG");
+}
+
+
 	
 .tag {
 	background-color: #6c757d;
