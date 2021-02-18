@@ -3797,12 +3797,23 @@ input, select, textarea {
 
 
 /* Alterations */
+
+#second {
+
+}
+
 .projectSection {
 	display: grid; 
 	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 	column-gap: 15px;
 	row-gap: 50px;
+
 }
+
+.projectSection .main {
+
+}
+
 
 .projectSection h2:after {
 	display: none !important;
@@ -3844,6 +3855,52 @@ input, select, textarea {
 .projectSevenImage {
 	background-image: url("../../images/Hollywood_Hair_Screenshot.PNG");
 }
+
+
+@media screen and (max-width: 1280px) {
+
+
+
+}
+
+@media screen and (max-width: 980px) {
+
+
+
+}
+
+@media screen and (max-width: 736px) {
+	.projectSection .main .major {
+		/* padding: 0px, 10px, 0px, 5px!important;  */
+		padding-right: 10px; 
+		padding-left: 10px; 
+	}
+
+
+
+}
+
+@media screen and (max-width: 480px) {
+	/* .projectSection .main .major {
+		padding-right: 10px; 
+		padding-left: 10px; 
+	} */
+
+
+}
+
+@media screen and (max-width: 360px) {
+	/* .projectSection .main .major {
+		padding-right: 10px; 
+		padding-left: 10px; 
+	} */
+
+}
+
+
+
+
+
 
 
 	
