@@ -1,5 +1,5 @@
 const url: string =
-  "https://pbr3r32egvo27ids7gpjohrcnu0dwucw.lambda-url.ap-southeast-2.on.aws/";
+  "https://z4duurglrlw5wczlr7ukpo5bs40saqxa.lambda-url.ap-southeast-2.on.aws/";
 document.addEventListener("DOMContentLoaded", () => {
   const counterEl = document.querySelector("#view-count");
 
@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let data = await response.json();
 
     if (counterEl) {
-      counterEl.innerHTML = "${data}";
+      counterEl.innerHTML = `${data}`;
     }
   }
 
