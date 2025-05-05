@@ -1,31 +1,21 @@
-Stellar by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+## Online Resume
 
+This repository contains the source code for my online resume, a static site customized from the Stellar template by HTML5 UP (@ajlkn).
 
-Say hello to Stellar, a slick little one-pager with a super vibrant color palette (which
-I guess you can always tone down if it's a little too vibrant for you), a "sticky" in-page
-nav bar (powered by my Scrollex plugin), a separate generic page template (just in case
-you need one), and an assortment of pre-styled elements.
+🚀 Deployment & Infrastructure
+Hosted on AWS using serverless architecture: S3, CloudFront, Lambda, DynamoDB, and CloudWatch.
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+Infrastructure as Code (IaC) managed with Terraform, enabling automated and reproducible environment setups.
 
-(* = not included)
+CI/CD pipeline implemented via GitHub Actions for seamless deployments and updates on every code push.
 
-AJ
-aj@lkn.io | @ajlkn
+Python-based Lambda function powers real-time visitor tracking by interfacing with DynamoDB.
 
+Focused on cost optimization and observability using AWS CloudWatch metrics and logs.
 
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+🔧 Technologies Used
+- HTML/CSS (based on HTML5 UP template)
+- AWS (S3, CloudFront, Lambda, DynamoDB)
+- Terraform
+- GitHub Actions
+- Python
